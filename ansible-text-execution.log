@@ -1,0 +1,11 @@
+2016-05-30 02:40:17,743 p=11943 u=joanamarinova |  PLAY [Install ansible on Ubuntu] ***********************************************
+2016-05-30 02:40:18,008 p=11943 u=joanamarinova |  TASK [setup] *******************************************************************
+2016-05-30 02:40:20,098 p=11943 u=joanamarinova |  ok: [192.168.1.103]
+2016-05-30 02:40:20,101 p=11943 u=joanamarinova |  TASK [common : Install Python Software properties] *****************************
+2016-05-30 02:40:23,163 p=11943 u=joanamarinova |  ok: [192.168.1.103]
+2016-05-30 02:40:23,166 p=11943 u=joanamarinova |  TASK [common : Add ansible PPA] ************************************************
+2016-05-30 02:40:23,662 p=11943 u=joanamarinova |  ok: [192.168.1.103]
+2016-05-30 02:40:23,664 p=11943 u=joanamarinova |  TASK [common : Install ansible] ************************************************
+2016-05-30 02:40:54,334 p=11943 u=joanamarinova |  changed: [192.168.1.103]
+2016-05-30 02:40:54,360 p=11943 u=joanamarinova |  PLAY RECAP *********************************************************************
+2016-05-30 02:40:54,360 p=11943 u=joanamarinova |  192.168.1.103              : ok=4    changed=1    unreachable=0    failed=0   

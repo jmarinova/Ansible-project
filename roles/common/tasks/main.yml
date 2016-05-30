@@ -1,0 +1,9 @@
+--- 
+- name: Install Python Software properties
+  apt: pkg=software-properties-common state=installed update_cache=yes
+
+- name: Add ansible PPA
+  apt_repository: repo='ppa:ansible/ansible' state=present update_cache=yes
+
+- name: Install ansible
+  apt: pkg=ansible state=installed update_cache=yes

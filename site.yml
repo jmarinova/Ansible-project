@@ -1,0 +1,6 @@
+---
+- name: Install ansible on Ubuntu
+  hosts: all
+  user: joana
+  roles:
+    - common

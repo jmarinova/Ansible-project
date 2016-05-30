@@ -1,0 +1,5 @@
+#variables that are visible from all roles
+
+sshd_port: 22
+sshd_permitrootlogin: yes
+sshd_pubkeyauth: yes
